@@ -1,0 +1,14 @@
+%h1 Listing tasks
+
+%ul.list-group.tasks
+
+%h2 Add Task
+.input-group
+  %p
+    Name:
+    %input.form-control.name{:type => "text"}/
+  %p
+    Project:
+    %input.form-control.project{:type => "text"}/
+
+%button.btn.btn-default.js-add-task Add Task
